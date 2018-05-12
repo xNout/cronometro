@@ -17,18 +17,27 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="window col-md-6 col-md-offset-3">
+			<div class="window col-md-6 col-sm-8 col-xs-10 col-xs-offset-1 col-md-offset-3 col-sm-offset-2">
 				<h1 class="text-center">Cronometro</h1>
 				<p class="cronometro_secs text-center">0:00:0</p>
 				<div class="row">
 
-					<div class="col-md-4 col-md-offset-8">
+					<div class="col-md-4 col-md-offset-8 col-sm-4 col-xs-offset-8 hidden-xs">
 						<button class="init_crono btn btn-primary" type="button">Iniciar Cronometro</button>
 					</div>
 
-					<div class="col-md-8 col-md-offset-5">
+					<div class="col-xs-4 col-xs-offset-8 visible-xs">
+						<button class="init_crono btn btn-primary btn-sm" type="button">Iniciar Cronometro</button>
+					</div>
+
+					<div class="col-md-8 col-md-offset-5 hidden-xs">
 						<button class="pause_crono hidden btn btn-success" type="button">Pausar Cronometro</button>
 						<button class="reset_crono hidden btn btn-default" type="button">Reiniciar Cronometro</button>
+					</div>
+
+					<div class="col-xs-10 visible-xs x-margin-center">
+						<button class="pause_crono hidden btn btn-success btn-sm" type="button">Pausar Cronometro</button>
+						<button class="reset_crono hidden btn btn-default btn-sm" type="button">Reiniciar Cronometro</button>
 					</div>
 				</div>
 			</div>

@@ -20,3 +20,19 @@ body{
 .footer_text{
 	color: rgba(0,0,0,.4);
 }
+
+.x-margin-center{
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+	.cronometro_secs{
+		font-size: 100px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.cronometro_secs{
+		font-size: 60px;
+	}
+}
